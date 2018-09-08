@@ -23,5 +23,5 @@ Note: remember that the printed value of pi will be an estimate!
 """
 t = int(input("I will estimate pi. How many terms should I use? "))
 p = int(input("How many decimal places should there be? "))
-pi = 4*sum([((-1)**k) / (2 * k + 1) for k in range(0,t)])
+pi = 4*sum([((-1)**k) / (2*k+1) for k in range(0,t)])
 print("The approximate value of pi is {0}".format(round(pi,p)))
